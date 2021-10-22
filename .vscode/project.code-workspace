@@ -1,0 +1,65 @@
+{
+    "folders": [
+        {
+            "name": "project",
+            "path": ".."
+        }
+    ],
+    "settings": {
+        "git.autofetch": true,
+        "git.branchWhitespaceChar": "-",
+        "git.enableSmartCommit": true,
+        "files.autoSave": "afterDelay",
+        "workbench.colorTheme": "Monokai Dimmed",
+        "workbench.iconTheme": "material-icon-theme",
+        "editor.minimap.enabled": false,
+        "terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)",
+        "terminal.integrated.profiles.windows": {
+            "PowerShell": {
+                "source": "PowerShell",
+                "icon": "terminal-powershell"
+            },
+            "Command Prompt": {
+                "path": [
+                    "${env:windir}\\Sysnative\\cmd.exe"
+                ],
+                "args": [],
+                "icon": "terminal-cmd"
+            },
+            "Git Bash": {
+                "source": "Git Bash",
+                "icon": "terminal-linux",
+            },
+            "pwsh": {
+                "path": "C:\\Program Files\\PowerShell\\pwsh.exe",
+                "icon": "terminal-powershell",
+                "args": []
+            },
+            "Ubuntu-20.04 (WSL)": {
+                "path": "C:\\Windows\\System32\\wsl.exe",
+                "icon": "terminal-ubuntu",
+                "env": {},
+                "args": []
+            }
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-vscode-remote.vscode-remote-extensionpack",
+            "editorconfig.editorconfig",
+            "pkief.material-icon-theme",
+            "davidanson.vscode-markdownlint",
+            "mhutchie.git-graph",
+            "ms-vscode.powershell"
+        ],
+        "unwantedRecommendations": [
+            "donjayamanne.githistory",
+            "dotjoshjohnson.xml",
+            "eamodio.gitlens",
+            "felipecaputo.git-project-manager",
+            "mccarter.start-git-bash",
+            "ms-azuretools.vscode-azureterraform",
+            "ms-azuretools.vscode-docker"
+        ]
+    }
+}
