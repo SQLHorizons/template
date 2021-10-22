@@ -1,5 +1,16 @@
 # Getting Started
 
+## clone repository (example - 'sca-agent')
+
+```bash
+export PAT=$(cat ~/.pat | base64 --decode) ORG=$(cat ~/.org) PROJECT=sca-agent
+export REPOSITORY_LOCATION=/mnt/d/.source/.ado.repos
+
+##  clone repository
+git clone https://${PAT}@github.com/${ORG}/sca-agent.git ${REPOSITORY_LOCATION}/${PROJECT}
+cd ${REPOSITORY_LOCATION}/${PROJECT}
+```
+
 ## setup repository
 
 ```bash
